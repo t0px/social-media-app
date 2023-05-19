@@ -88,67 +88,60 @@ const Rightbar = () => {
             <ListItemAvatar>
               <Avatar
                 alt="Remy Sharp"
-                src="https://material-ui.com/static/images/avatar/3.jpg"
+                src="/src/images/avatar/family.jpg"
               />
             </ListItemAvatar>
             <ListItemText
-              primary="Brunch this weekend?"
+              primary="Family ❤️"
               secondary={
-                <React.Fragment>
+                <>
                   <Typography
                     sx={{ display: "inline" }}
                     component="span"
                     variant="body2"
                     color="text.primary"
                   >
-                    Ali Connors
+                    Dad
                   </Typography>
-                  {" — I'll be in your neighborhood doing errands this…"}
-                </React.Fragment>
+                  {" — Can you pick her up in the mornin..."}
+                </>
               }
             />
           </ListItem>
           <Divider variant="inset" component="li" />
           <ListItem alignItems="flex-start">
             <ListItemAvatar>
-              <Avatar alt="Travis Howard" src="/static/images/avatar/2.jpg" />
+              <Avatar alt="The Boys" src="/src/images/avatar/group.png" />
             </ListItemAvatar>
             <ListItemText
-              primary="Summer BBQ"
+              primary="The Boys 🥶"
               secondary={
-                <React.Fragment>
+                <>
                   <Typography
                     sx={{ display: "inline" }}
                     component="span"
                     variant="body2"
                     color="text.primary"
                   >
-                    to Scott, Alex, Jennifer
+                    You
                   </Typography>
-                  {" — Wish I could come, but I'm out of town this…"}
-                </React.Fragment>
+                  {" — Fifa Tonight?"}
+                </>
               }
             />
           </ListItem>
           <Divider variant="inset" component="li" />
           <ListItem alignItems="flex-start">
             <ListItemAvatar>
-              <Avatar alt="Cindy Baker" src="/static/images/avatar/3.jpg" />
+              <Avatar alt="Cindy Baker" src="/src/images/avatar/luffy.png" />
             </ListItemAvatar>
             <ListItemText
-              primary="Oui Oui"
+              primary="David Katz"
               secondary={
-                <React.Fragment>
-                  <Typography
-                    sx={{ display: "inline" }}
-                    component="span"
-                    variant="body2"
-                    color="text.primary"
-                  >
-                    Sandra Adams
-                  </Typography>
-                  {" — Do you have Paris recommendations? Have you ever…"}
-                </React.Fragment>
+                <>
+
+                  {"Italy was great but I got tired at the end..."}
+                </>
               }
             />
           </ListItem>
