@@ -18,6 +18,7 @@ const StyledModal = styled(Modal)({
   display: "flex",
   alignItems: "center",
   justifyContent: "center",
+  backdropFilter: "blur(4px)"
 });
 
 const UserBox = styled(Box)({

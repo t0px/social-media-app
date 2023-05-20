@@ -7,7 +7,7 @@ import { useState } from "react";
 const StyledToolbar = styled(Toolbar)(({ theme }) => ({
   display: "flex",
   justifyContent: "space-between",
-  backgroundColor: theme.palette.mode === "dark" ? "darkColor" : "#2196f3",
+  backgroundColor: theme.palette.mode === "dark" ? "darkColor" : "purple",
 }));
 
 const Search = styled("div")(({theme}) => ({
